@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=IM+Fell+English+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+}
+.heading{
+    font-size: 5vh;
+    display: block;
+    padding-left: 100px;
+    color:rebeccapurple;
+    letter-spacing: 5px;
+    font-family: 'IM Fell English SC', serif;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(rgb(175, 96, 59), rgb(13, 4, 100));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.logo{
+    margin-top: 100px;
+    position: absolute;
+    left: 450px;
+}
+.button{
+    margin-top: 250px;
+    position: absolute;
+    left: 50px;
+}
+.ulink{
+    text-decoration: none;
+    margin-left: 500px;
+}
+.btn{
+    width: 12vw;
+    color: white;
+    background: #1f8ed8;
+    font-size: 2vh;
+    height: 4vh;
+    border: none;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+.btn:hover{
+    background: #0262e0;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+img{
+    align-items: center;
+    height: 25vh;   
+}

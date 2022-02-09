@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(37, 35, 145), rgb(11, 108, 133));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title1{
+    font-family: 'Arvo', serif;
+    font-size: 8vh;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+img{
+    height: 25vh;
+    position: relative;
+    left: 05px;
+    border-radius: 50%;
+}
+#profile{
+    font-size: 3vh;
+    letter-spacing: 3px;
+}
+.list-group-item{
+    border: none;
+    font-family: 'Acme', sans-serif;
+    background-color: linear-gradient(to bottom right,#0059fd,rgb(9, 164, 253),#ffffffee);
+}
+.btn{
+    font-family: 'Arvo', serif;
+    letter-spacing: 2px;
+    font-size: 3vh;
+    background: #0059fd;
+    border-color: rgb(9, 164, 253);
+    width: 20vw;
+    font-weight: bold;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+}
+.btn:hover{
+    color: red;
+    background: rgb(9, 164, 253);
+    letter-spacing: 4px;
+}
+.btn:active{
+    background: rgb(9, 164, 253);
+    letter-spacing: 4px;
+    border-color: #0059fd;
+}
